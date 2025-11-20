@@ -1,0 +1,48 @@
+{
+  "candidatos": [
+    {
+      "nombre": "Jeannette Jara",
+      "biografia": "Abogada y administradora pública. Ministra del Trabajo y Previsión Social entre 2022 y 2025. Ha liderado las agendas de reforma previsional, aumento del salario mínimo, negociación colectiva y políticas de protección social. Anteriormente ejerció como subsecretaria de Previsión Social entre 2016 y 2018.",
+      "hitos": [
+        {
+          "titulo": "Reforma Previsional",
+          "descripcion": "Lideró el proyecto de reforma al sistema de pensiones que incluyó solidaridad intergeneracional, mayor cotización y fortalecimiento del rol estatal."
+        },
+        {
+          "titulo": "Salario Mínimo",
+          "descripcion": "Impulsó el incremento histórico del salario mínimo, llegando a $500.000 pesos en acuerdo con trabajadores y empresarios."
+        },
+        {
+          "titulo": "Negociación Colectiva",
+          "descripcion": "Promovió acuerdos laborales, mejoras en condiciones de empleo y fortalecimiento del diálogo social."
+        },
+        {
+          "titulo": "Protección Social",
+          "descripcion": "Impulsó políticas para mejorar cobertura y seguridad económica de familias vulnerables."
+        }
+      ]
+    },
+    {
+      "nombre": "José Antonio Kast",
+      "biografia": "Abogado y exdiputado de la República durante cuatro periodos consecutivos. Se ha desempeñado como dirigente político y fundador del Partido Republicano. Ha participado activamente en debates de seguridad, orden público, estructura del Estado y políticas económicas de libre mercado.",
+      "hitos": [
+        {
+          "titulo": "Diputado por cuatro periodos",
+          "descripcion": "Representó a Santiago Sur y luego a La Reina–Peñalolén entre 2002 y 2018."
+        },
+        {
+          "titulo": "Comisión de Constitución",
+          "descripcion": "Participó activamente en legislación sobre seguridad, sistema político y administración del Estado."
+        },
+        {
+          "titulo": "Fundación del Partido Republicano",
+          "descripcion": "Impulsó una nueva plataforma política de derecha, enfocada en orden, seguridad y libertades individuales."
+        },
+        {
+          "titulo": "Agenda de Seguridad",
+          "descripcion": "Promovió iniciativas relacionadas con combate al narcotráfico, terrorismo y crimen organizado."
+        }
+      ]
+    }
+  ]
+}

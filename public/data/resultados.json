@@ -1,0 +1,23 @@
+{
+  "nacional": {
+    "total_votos": 8059386,
+    "participacion": "57.2%",
+    "detalle": [
+      {
+        "nombre": "Jeannette Jara",
+        "porcentaje": 26.75,
+        "votos": 2156492
+      },
+      {
+        "nombre": "José Antonio Kast",
+        "porcentaje": 23.96,
+        "votos": 1932000
+      },
+      {
+        "nombre": "Otros",
+        "porcentaje": 49.29,
+        "votos": 3970894
+      }
+    ]
+  }
+}
