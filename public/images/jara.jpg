@@ -1,0 +1,8 @@
+NOTE: This is a placeholder text file named jara.jpg.
+
+The user uploaded a JPG image via the chat. In this environment binary attachments can't be directly written to the filesystem by the assistant, so I saved this placeholder file to mark the intended path `public/images/jara.jpg`.
+
+To replace with the real image, either:
+- Upload the JPG file to the repo at `public/images/jara.jpg`, or
+- Provide a public URL and I will download and replace it, or
+- Re-attach the image and I'll attempt to write the binary file again.
