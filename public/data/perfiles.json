@@ -3,6 +3,7 @@
     {
       "nombre": "Jeannette Jara",
       "biografia": "Abogada y administradora pública. Ministra del Trabajo y Previsión Social entre 2022 y 2025. Ha liderado las agendas de reforma previsional, aumento del salario mínimo, negociación colectiva y políticas de protección social. Anteriormente ejerció como subsecretaria de Previsión Social entre 2016 y 2018.",
+      "foto": "/images/jara.svg",
       "hitos": [
         {
           "titulo": "Reforma Previsional",
@@ -25,6 +26,7 @@
     {
       "nombre": "José Antonio Kast",
       "biografia": "Abogado y exdiputado de la República durante cuatro periodos consecutivos. Se ha desempeñado como dirigente político y fundador del Partido Republicano. Ha participado activamente en debates de seguridad, orden público, estructura del Estado y políticas económicas de libre mercado.",
+      "foto": "/images/kast.svg",
       "hitos": [
         {
           "titulo": "Diputado por cuatro periodos",
