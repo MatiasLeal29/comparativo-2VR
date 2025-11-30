@@ -1,9 +1,15 @@
 import { Perfil } from "../types";
 
-export const PerfilCard = ({ nombre, biografia, hitos }: Perfil) => {
+export const PerfilCard = ({ nombre, biografia, hitos, foto }: Perfil) => {
+  const lower = nombre.toLowerCase();
+  const candidateClass = lower.includes("jara") ? "jara" : lower.includes("kast") ? "kast" : "";
+
   return (
-    <div className="perfil-card">
+    <div className={`perfil-card ${candidateClass}`}>
       <div className="perfil-header">
+        {foto && (
+          <img src={foto} alt={`${nombre} foto`} className="perfil-foto" />
+        )}
         <h3>{nombre}</h3>
       </div>
 

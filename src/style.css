@@ -143,6 +143,30 @@ h2 {
   font-size: 1.4rem;
 }
 
+.perfil-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.perfil-foto {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--border);
+  box-shadow: 0 6px 18px rgba(2,6,23,0.08);
+}
+
+/* color ring per candidate */
+.perfil-card.jara .perfil-foto {
+  border-color: rgba(4,120,87,0.85);
+}
+.perfil-card.kast .perfil-foto {
+  border-color: rgba(234,88,12,0.85);
+}
+
 .perfil-bio {
   margin: 15px 0;
   text-align: justify;
@@ -232,6 +256,46 @@ h2 {
 .btn-link:hover {
   color: var(--accent-blue);
   text-decoration: underline;
+}
+
+/* ===============================
+   CITAS Y FUENTES (COMPARATIVA)
+=================================*/
+.cita {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  padding: 12px 14px;
+  background: linear-gradient(90deg, rgba(59,130,246,0.04), rgba(4,120,87,0.02));
+  border-left: 4px solid rgba(30,58,138,0.12);
+  border-radius: 8px;
+  font-style: italic;
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.cita .fuente {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--accent-blue);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.cita .fuente:hover {
+  color: var(--accent-blue-light);
+  text-decoration: underline;
+}
+
+/* variante para diferenciar candidatos (opcional) */
+.card.kast .cita {
+  border-left-color: rgba(234,88,12,0.18);
+  background: linear-gradient(90deg, rgba(234,88,12,0.03), rgba(59,130,246,0.01));
+}
+.card.jara .cita {
+  border-left-color: rgba(4,120,87,0.18);
+  background: linear-gradient(90deg, rgba(4,120,87,0.03), rgba(59,130,246,0.01));
 }
 
 /* ===============================

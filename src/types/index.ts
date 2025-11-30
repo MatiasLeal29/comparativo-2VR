@@ -10,6 +10,7 @@ export interface Perfil {
   nombre: string;
   biografia: string;
   hitos: Hito[];
+  foto?: string;
 }
 
 export interface PerfilesData {
@@ -24,6 +25,8 @@ export interface ComparativoItem {
   Candidato: string;
   Propuesta: string;
   LinkPrograma: string;
+  Cita?: string;
+  Fuente?: string;
 }
 
 // =============================
