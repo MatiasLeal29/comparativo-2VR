@@ -1,71 +1,50 @@
-#  Dashboard Electoral 2025 — Comparativo Segunda Vuelta
+# Dashboard Electoral 2025 – Comparativo Segunda Vuelta
 
-Bienvenido al **Dashboard Electoral 2025**, una plataforma desarrollada con **React + TypeScript + Vite**, diseñada para ofrecer un **comparativo claro, accesible y verificable** entre los dos candidatos que avanzan a la **segunda vuelta presidencial de Chile 2025**:
+Plataforma informativa construida con **React + TypeScript + Vite** para ofrecer un comparativo claro y verificable entre los dos candidatos que pasan a la segunda vuelta presidencial de Chile 2025:
 
 - **Jeannette Jara**
 - **José Antonio Kast**
 
-Este proyecto tiene un carácter **informativo y ciudadano**, promoviendo transparencia y acceso sencillo a la información oficial contenida en los programas de gobierno.
+La información proviene de los programas de gobierno publicados oficialmente por cada comando.
 
 ---
 
-## 🎯 Objetivo del Proyecto
-
-El propósito de esta plataforma es:
-
-- Presentar **perfiles profesionales** resumidos de ambos candidatos.
-- Comparar **propuestas oficiales por temática**, con enlaces directos a sus programas.
-- Mostrar **resultados nacionales de la primera vuelta** mediante gráficos limpios y responsivos.
-- Entregar una herramienta simple, elegante y accesible desde cualquier dispositivo.
-
-Toda la información utilizada proviene **exclusivamente de los programas de gobierno publicados oficialmente** por los comandos de campaña.
+## 🎯 Objetivo del proyecto
+- Presentar perfiles profesionales resumidos de ambos candidatos.
+- Comparar propuestas oficiales por temática con enlaces al programa completo.
+- Mostrar resultados nacionales de la primera vuelta con visualizaciones simples y responsivas.
+- Entregar una herramienta accesible y fácil de consultar desde cualquier dispositivo.
 
 ---
 
-## 🧩 Funcionalidades Principales
+## ✨ Funcionalidades principales
+1. **Perfil Profesional**  
+   - Biografía resumida de cada candidato.  
+   - Experiencia en el sector público.  
+   - Hitos políticos destacados.
 
-### 🟦 1. Perfil Profesional  
-Sección donde se exponen:
-- Biografía resumida de cada candidato  
-- Experiencia previa en el sector público  
-- Entre 3 y 5 hitos políticos destacados  
+2. **Comparativa por Temática**  
+   - Economía, seguridad, salud, vivienda, educación, energía, medio ambiente, digitalización/IA, empleo, entre otras.  
+   - Cada propuesta enlaza al programa oficial correspondiente.
 
-### 🟧 2. Comparativa por Temática  
-Comparación detallada en áreas como:
-- Economía  
-- Seguridad  
-- Salud  
-- Vivienda  
-- Educación  
-- Energía  
-- Medio ambiente  
-- Digitalización / IA  
-- Empleo  
-- (y otras temáticas relevantes)
-
-Cada propuesta contiene un link directo al **programa oficial del candidato**.
-
-### 🟩 3. Resultados Primera Vuelta  
-Visualización mediante un **gráfico de barras** del desempeño electoral nacional:
-- Porcentaje obtenido por cada candidato  
-- Total de votos  
-- Participación electoral  
+3. **Resultados Primera Vuelta**  
+   - Gráfico de barras con porcentaje y votos.  
+   - Totales nacionales y participación electoral.
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
-
-Este proyecto está desarrollado con:
-
-- **React 18**
-- **TypeScript**
-- **Vite 5**
-- **Framer Motion** (microinteracciones)
-- **CSS puro** (enfoque institucional, dark mode incluido)
-- **ES Modules**
-- **JSON externo para datos dinámicos**
+## 🛠 Tecnologías
+- React 18 + TypeScript
+- Vite 5
+- Framer Motion (microinteracciones)
+- CSS puro (incluye dark mode)
+- Datos en JSON servidos desde `public/data`
 
 ---
 
-## 📁 Estructura del Proyecto
-
+## 📁 Estructura
+- `src/` componentes, páginas y contexto de tema.  
+- `public/data/` archivos JSON con perfiles, comparativas y resultados.  
+- `public/images/` assets de los candidatos.  
+- `vite.config.ts` configuración de Vite.  
+- `vercel.json` salida de build (`dist`) para despliegue.

@@ -11,10 +11,10 @@ export const Topbar = ({ active, onTabChange }: Props) => {
   return (
     <header className="topbar">
       <div className="topbar-row">
-        <div className="logo">📊 Dashboard Electoral 2025</div>
+        <div className="logo">Dashboard Electoral 2025</div>
 
         <button className="theme-btn" onClick={toggleDarkMode}>
-          {darkMode ? "☀️" : "🌙"}
+          {darkMode ? "☀" : "🌙"}
         </button>
       </div>
 
