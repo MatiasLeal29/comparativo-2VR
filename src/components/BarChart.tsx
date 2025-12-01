@@ -25,7 +25,7 @@ export const BarChart = ({ data }: Props) => {
           </div>
 
           <span className="bar-value">
-            {item.porcentaje}% • {item.votos.toLocaleString("es-CL")} votos
+            {item.porcentaje}% | {item.votos.toLocaleString("es-CL")} votos
           </span>
         </div>
       ))}

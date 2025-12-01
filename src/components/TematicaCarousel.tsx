@@ -6,20 +6,20 @@ interface Props {
 
 export const TematicaCarousel = ({ tematicas, active, onSelect }: Props) => {
   const ICONS: Record<string, string> = {
-    Economía: "📊",
-    Seguridad: "🛡",
+    Economía: "💰",
+    Seguridad: "🛡️",
     Salud: "🏥",
-    Pensiones: "💰",
+    Pensiones: "💵",
     Educación: "🎓",
     Vivienda: "🏠",
-    Transporte: "🚆",
+    Transporte: "🚌",
     Energía: "⚡",
     "Medio Ambiente": "🌿",
     Justicia: "⚖️",
-    "Relaciones Exteriores": "🌎",
+    "Relaciones Exteriores": "🌐",
     Cultura: "🎭",
     "Digitalización / IA": "🤖",
-    Empleo: "💼",
+    Empleo: "📈",
   };
 
   return (
@@ -30,7 +30,7 @@ export const TematicaCarousel = ({ tematicas, active, onSelect }: Props) => {
           className={`tematica-card ${active === t ? "active" : ""}`}
           onClick={() => onSelect(t)}
         >
-          <span className="tematica-icon">{ICONS[t]}</span>
+          <span className="tematica-icon">{ICONS[t] ?? "•"}</span>
           <span className="tematica-label">{t}</span>
         </div>
       ))}
